@@ -283,69 +283,375 @@
 <i class="bx bx-star"></i>
 <i class="bx bx-star"></i>
 <i class="bx bxs-star-half" ></i>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Street Wear</title>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: black;
+}
+
+#searchbar {
+    
+    border-radius: 5px;
+    
+}
+
+.logo {
+ color: white;  
+ font-size: 20px; 
+}
+
+
+.navmenu a:hover {
+    color:#EE1C47;
+}
+
+#menu-icon {
+    height: 20px;
+    color: white;
+    z-index: 10001;
+    cursor: pointer;
+    
+}
+
+
+section { 
+    padding: 5% 10%;
+
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/376/665/239/dragon-ball-dragon-ball-z-goku-wallpaper-preview.jpg");
+    background-position:center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat (1, 1fr);                      
+    align-items: center;
+    
+}
+
+.main-text h5{
+
+color:#EE1C47;
+
+font-size: 16px;
+
+text-transform: capitalize;
+
+font-weight: 500;
+
+}
+
+.main-text hi{
+color:#000;
+font-size: 65px;
+text-transform: capitalize;
+line-height: 1.1;
+font-weight: 600;
+margin: 6px 10px;
+}
+
+.main-text p{
+
+color: #333c56;
+
+font-size: 20px;
+
+font-style: italic;
+
+margin-bottom: 20px;
+
+}
+
+.main-btn{
+display: inline-block;
+color: #111; padding: 12px 25px;
+font-size: 16px;
+font-weight: 500;
+text-transform: capitalize;
+border: 2px solid #111;
+transition: all .42s ease;
+}
+
+.main-btn i{ 
+vertical-align: middle;
+}
+
+
+/* trending-section-css */
+
+.center-text h2{
+color: #111;
+font-size: 28px;
+text-transform: capitalize;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.center-text span{ 
+color:#EE1C47;
+}
+
+.row {
+position: relative;
+transition: all .40s;
+height:200px ;
+width:200px ;
+
+}
+
+.onerow {
+   padding-left: 50px;
+}
+
+.row img{ 
+width: 100%;
+height: auto; 
+transition: all .40s;
+}
+
+.row img:hover{ 
+transform: scale(0.9);
+}
+
+
+
+/* banner */
+.container{
+width: 100%;
+    height: 35vh;
+    background-image: url("file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/image/itachi.jpg");
+    background-position:center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat (1, 1fr);                      
+    align-items: center;
+}
+
+.Ztext h1{
+    color: blueviolet;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    margin-bottom: 15px;
+}
+
+.Ztext p{
+    margin-bottom: 10px;
+}
+
+.Ztext-btn{
+display: inline-block;
+color: #111; 
+padding: 12px 25px;
+font-size: 16px;
+font-weight: 500;
+text-transform: capitalize;
+border: 2px solid #111;
+transition: all .42s ease;
+}
+
+
+/* banner end */
+
+
+</style>
+</head>   
+<body>
+    
+    <header>
+  <a href="#" class="logo">STREETWEAR</a>
+ <input type="search" placeholder="Serach for product" id="searchbar">       
+        
+          
+<div class="nav-icon">
+<a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/menu.html"><img id="menu-icon" src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/image/menu.png" alt="menu"></img></a>
+
+
+
+</header>
+<section class="main-home">
+<div class="main-text">
+<h5>Street Wear</h5>
+<h1>New Trendy <br> Designs Collection 2023</h1>
+<p>Fashion is about comfort and feeling good!!</p>
+<a href="#" class="main-btn">Shop Now</a>
+</div>
+</section>
+
+
+<!-- trending-products-section -->
+
+<section class="trending-product"
+    id="trending">
+<div class="center-text">
+<h2>Our Trending <span>Products</span></h2>
+</div>
+</section>
+<section>
+   <table class="Rowblock">
+   <tr>
+<td class="onerow">
+    <div class="row">
+           <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/product/one.html"><img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/image/Products/images (5).jpeg" alt=""></a>
+<div class="product-text">
+    
+<br>
 </div>
 <div class="price">
-<h4>Half Running Set</h4>
-<p>$99 - $129</p>
+<h4>Demon Slayer Kimutsu T-shirt</h4>
+<p>₹599</p>
 </div>
 </td>
+
+
+
   <td class="onerow">
     <div class="row">
-           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8lclcAq2Q3EqXAMVCDnmkOQlo3YKF3S2pg&usqp=CAU" alt=""></a>
+           <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/product/two.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrdLuZ3LA5BZqOcsv_xJt2cUmJk6upBQ9d2g&usqp=CAU" alt=""></a>
 <div class="product-text">
-<h5>Sale</h5>
+    
+    
+<br>
 </div>
-<div class="heart-icon">
-<i class='bx bx-heart'></i>
+<div class="price">
+<h4>Chibi Gang Oversized T-shirt
+
+</h4>
+<p>₹799</p>
 </div>
-<div class="ratting">
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bxs-star-half" ></i>
+</td>
+
+
+<td class="onerow">
+    <div class="row">
+           <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/product/three.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6MXlOGzcqhraMyT1DWms1I3GxlwOjX9tEzA&usqp=CAU" alt=""></a>
+<div class="product-text">
+    
+    
+<br>
+</div>
+<div class="price">
+<h4>Sand Hero Oversized T-shirt</h4>
+<p>₹899</p>
+</div>
+</td>
+
+
+<td class="onerow">
+    <div class="row">
+           <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/product/four.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAdJC__AbAmf0_XXu0paLsJpSgrYPwd37XSw&usqp=CAU" alt=""></a>
+<div class="product-text">
+    
+    
+<br>
+</div>
+<div class="price">
+<h4>Gara StreetWear T-shirt</h4>
+<p>₹1,200</p>
+</div>
+</td>
+</tr>     
+</table>
+</section>
+<br>
+<br>
+<br>
+<br>
+
+<section class="trending-product"
+    id="trending">
+<div class="center-text">
+<h2> Anime <span>Hodies</span></h2>
+</div>
+</section>
+
+
+<section>
+   <table class="Rowblock">
+   <tr>
+<td class="onerow">
+    <div class="row">
+           <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToNMsqk3eCogCvCvy8G4EaS35Cfo_74WaLiQ&usqp=CAU" alt=""></a>
+<div class="product-text">
+    
+    
+<br>
 </div>
 <div class="price">
 <h4>Half Running Set</h4>
 <p>$99 - $129</p>
 </div>
 </td>
+
+
+  <td class="onerow">
+    <div class="row">
+           <a href=""><img src="https://i5.walmartimages.com/asr/937606ce-2b6a-48af-9569-fcd5d94e1ff8.f13b79db69f92c9df44421d877208c63.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt=""></a>
+<div class="product-text">
+<br>
+</div>
+
+
+<div class="price">
+<h4>Half Running Set</h4>
+<p>$99 - $129</p>
+</div>
+</td>
+
+
 <td class="onerow">
     <div class="row">
-           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRE1AaFg0SvcadFiYuUFATs-52oP6CZs3P1g&usqp=CAU" alt=""></a>
+           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSP4jdAC5cgjOPEFiyWwJBnR-v63-QNHkE_w&usqp=CAU" alt=""></a>
 <div class="product-text">
-<h5>Sale</h5>
-</div>
-<div class="heart-icon">
-<i class='bx bx-heart'></i>
-</div>
-<div class="ratting">
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bxs-star-half" ></i>
+    
+    
+<br>
 </div>
 <div class="price">
 <h4>Half Running Set</h4>
 <p>$99 - $129</p>
 </div>
 </td>
+
+
 <td class="onerow">
     <div class="row">
-           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0o35XXM1Ljqg5j5J7sSwelhzqCwdcPpFg7w&usqp=CAU" alt=""></a>
+           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNeOtT7Fh0IUBb2nxKNrNmzUGldSS9ySj9LA&usqp=CAU" alt=""></a>
 <div class="product-text">
-<h5>Sale</h5>
-</div>
-<div class="heart-icon">
-<i class='bx bx-heart'></i>
-</div>
-<div class="ratting">
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bx-star"></i>
-<i class="bx bxs-star-half" ></i>
+    
+    
+<br>
 </div>
 <div class="price">
 <h4>Half Running Set</h4>
@@ -359,6 +665,97 @@
 <br>
 <br>
 <br>
+<section class="trending-product"
+    id="trending">
+<div class="center-text">
+<h2> Shoes <span>Collection</span></h2>
+</div>
+</section>
+
+
+<section>
+   <table class="Rowblock">
+   <tr>
+<td class="onerow">
+    <div class="row">
+           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6l7Trz4zsqvqYqtG73Y6ffZGLyxKIb8Muqw&usqp=CAU" alt=""></a>
+<div class="product-text">
+   
+    
+<br>
+</div>
+<div class="price">
+<h4>Half Running Set</h4>
+<p>$99 - $129</p>
+</div>
+</td>
+
+
+  <td class="onerow">
+    <div class="row">
+           <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Steet Wear/product/ten.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8lclcAq2Q3EqXAMVCDnmkOQlo3YKF3S2pg&usqp=CAU" alt=""></a>
+<div class="product-text">
+    
+    
+<br>
+</div>
+<div class="price">
+<h4>Half Running Set</h4>
+<p>$99 - $129</p>
+</div>
+</td>
+
+
+<td class="onerow">
+    <div class="row">
+           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRE1AaFg0SvcadFiYuUFATs-52oP6CZs3P1g&usqp=CAU" alt=""></a>
+<div class="product-text">
+    
+    
+<br>
+</div>
+<div class="price">
+<h4>Half Running Set</h4>
+<p>$99 - $129</p>
+</div>
+</td>
+
+
+<td class="onerow">
+    <div class="row">
+           <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0o35XXM1Ljqg5j5J7sSwelhzqCwdcPpFg7w&usqp=CAU" alt=""></a>
+<div class="product-text">
+    
+    
+<br>
+</div>
+<div class="price">
+<h4>Half Running Set</h4>
+<p>$99 - $129</p>
+</div>
+</td>
+</tr>     
+</table>
+</section>
+<br>
+<br>
+<br>
+<br>
+
+<!-- banner -->
+
+<section class="container">
+<div class="Ztext">
+<h1>ANIME HOODIES</h1>
+<p>“Even the strongest of opponents always have a weakness.”</p>
+<a href="#" class="Ztext-btn">Shop Hoddies</a>
+</div>
+</section>
+
+
+
+
+<!-- banner end -->
 
 </body>
 </html>
